@@ -6,3 +6,7 @@ Understanding the broader socio-political and economic climate is crucial in int
 In addition, overlaying regional data such as unemployment rates onto our industry analysis, we aim to identify correlations and interdependencies between economic indicators and industry performance. This cross-referencing enables investors to discern regional nuances and tailor their investment strategies accordingly, ensuring alignment with both sectoral trends and local economic conditions.
 ## Project Scope 
 At its core, our project seeks to bridge the gap between data-driven analysis and practical investment strategies. By visualizing the long-term dynamics of stocks within specific industries, we aim to equip investors with actionable recommendations that transcend short-term market fluctuations. Our findings offer tangible implications for portfolio construction and asset allocation, empowering investors to navigate volatile market environments with confidence and resilience. Ultimately, our goal is to empower investors with the knowledge and insights needed to achieve their financial objectives in an ever-evolving investment landscape. 
+
+
+
+this is a test lmsdfldmflksdn
