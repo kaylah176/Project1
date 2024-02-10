@@ -1,36 +1,50 @@
 # Project1 : Stockscape - Portfolio Analysis in the Socio-Economic Playground 
 
-## Background 
-In today's dynamic global economy, investors are constantly seeking strategies to optimize their portfolios and maximize returns while mitigating risks. In line with this objective, our project delves into the intricacies of portfolio performance optimization through a comprehensive analysis of six key industries spanning a five-year period. By examining the performance of these industries, we aim to uncover underlying trends and patterns that can be validated against the backdrop of the socio-political and economic landscape prevailing during this time frame.
-
-## Importance of Socio-Political and Economic Climate and Driving Investor Decisions
-Understanding the broader socio-political and economic climate is crucial in interpreting the performance of industries accurately. Factors such as regulatory changes, government policies, geopolitical tensions, and macroeconomic indicators significantly influence market dynamics and sectoral performance. By validating our data's trends within these parameters, we can provide investors with a deeper understanding of the underlying drivers shaping industry trends and thereby enable them to make informed decisions about their portfolios. Armed with this knowledge, investors can proactively adjust their portfolio allocations to capitalize on emerging trends or shield themselves from potential downturns, thereby safeguarding their investments and enhancing long-term returns.
-In addition, overlaying regional data such as unemployment rates onto our industry analysis, we aim to identify correlations and interdependencies between economic indicators and industry performance. This cross-referencing enables investors to discern regional nuances and tailor their investment strategies accordingly, ensuring alignment with both sectoral trends and local economic conditions.
-
-## Project Scope 
-At its core, our project seeks to bridge the gap between data-driven analysis and practical investment strategies. By visualizing the long-term dynamics of stocks within specific industries, we aim to equip investors with actionable recommendations that transcend short-term market fluctuations. Our findings offer tangible implications for portfolio construction and asset allocation, empowering investors to navigate volatile market environments with confidence and resilience. Ultimately, our goal is to empower investors with the knowledge and insights needed to achieve their financial objectives in an ever-evolving investment landscape. 
-
-
-Our project focuses on optimizing portfolio performance by analyzing six industries' performance over the past five years. We aim to validate trends in our data based on the political and economic climate during this period. This analysis will provide investors with insights on portfolio positioning to safeguard their investments. 
+Our project focuses on optimizing portfolio performance by analyzing six industries' performance over the past five years. We aim to validate trends in our data based on the political and economic climate during this period. 
+This analysis will provide investors with insights on portfolio positioning to safeguard their investments. 
 Additionally, we will emphasize geographic data to visualize regions with political party affiliation and cross-reference them with relevant industries.
+___
+## Technologies
+- The **Stockscape - Portfolio Analysis in the Socio-Economic Playground** is written in Python<br>
+- Visualizations are generated using the hvPlot and Matplotlib libraries<br>
+___
+## Installation Guide
+- Transfer the repository contents to the designated folder on the user's computer, ensuring the preservation of the directory structure.
+- The application was created using Python version 3.11.7 <br>
+  To run the application on your local machine, ensure the installation of the following Python packages:<br>
 
+- Pandas
+- Matplotlib
+- Yahoo_fin
+- HvPlot
+- Jupyterlab
+<br>
+
+You can install these packages individually into your preferred environment.
+
+`pip install pandas`
+`pip install matplotlib`
+`pip install hvplot`
+`pip install jupyterlab`
+`pip install yfinance`
+___
 ## 1. Initial Data from yfinance
-    - We chose the top 6 industries (Technology, Healthcare, Financial, Consumer Discretionary, Energy, and Weapons Manufacturing) and 3 stocks of each
-    - Defined stock ticker and date range, and dowloaded the data it Yahoo Finance 
-  
+  - Through a market search, we chose the top 6 industries (Technology, Healthcare, Financial, Consumer Discretionary, Energy, and Weapons Manufacturing) and 3 stocks of each
+  - Defined stock ticker and date range, and dowloaded the data it Yahoo Finance 
+ ___ 
 ## 2. Creating a Database of Each Stock
-    - Created a DataFrame of the closing prices and dates of each stock per industry<br>
-    - Combined all stocks from the 6 industries into a single DataFrame: `custom_portfolio_df`
-    - Assigned the close column to a new DataFrame :`small_df`
-    - Used the `.columns` attribute to assign new column names to the DataFrame `small_df` 
-    - Created a new DataFrame that includes only columns correspondent ton the stock of each industry :
+   - Created a DataFrame of the closing prices and dates of each stock per industry <br>
+  - Combined all stocks from the 6 industries into a single DataFrame: `custom_portfolio_df`
+  - Assigned the close column to a new DataFrame :`small_df`
+  - Used the `.columns` attribute to assign new column names to the DataFrame `small_df` 
+  - Created a new DataFrame that includes only columns correspondent ton the stock of each industry :
   `tech_df = small_df[['AAPL', 'MSFT', 'GOOG']]`
   `health_df=small_df[['JNJ','PFE','UNH']]`
   `finance_df=small_df[['JPM','BAC','V']]`
   `consumer_df=small_df[['AMZN','NKE','DIS']]`
   `energy_df=small_df[['XOM','FSLR','NEE']]`
   `weapons_df=small_df[['LMT','RTX','NOC']]`
-
+___
 ## 3. Calculate Daily Returns and Weighted Returns 
 - Calculated Daily Returns of each industry in order to do a performance comparison
   `tech_daily`
@@ -44,7 +58,7 @@ Additionally, we will emphasize geographic data to visualize regions with politi
 - Renamed each column with the ticker' name <br>
 - Set weights (1/3) <br>
 - Created an empty dictonary to store the returns of each sector <br>
-
+___
 ## 4. Risk Analysis Performance 
 **- Cumulative returns of Each Industry** <br>
   A higher cumulative return observed in the weapons industry indicates that the investment has experienced more significant overall growth or positive performance over a one-year period. 
@@ -63,13 +77,15 @@ The proximity to zero, as indicated by the 0.54 value, suggests a moderate level
 
 ![alt text](IMAGES/SHARPE_RATIOS.png)
 
-
+___
 ## 5. Statistical Analysis
   
 - Analysed the  performance of each industry during time frame - 1 year before midtern, 1 year after midterm -- do this for 5 different terms <br>
 - Calculate the average growth of each industry<br>
 - Top performing industries get put into a portfolio weighted accordingly<br>
-
+- Why does the market underperform in the 12 months leading up to midterm elections and over-perform the 12 months after midterm elections?<br>
+- What variables lead to the underperformance and over-performance in the midterm elections? <br>
+  
 **Midterm 1:**
 12 Months Before 
 2013-11-01 to 2014-10-31
@@ -101,22 +117,38 @@ The proximity to zero, as indicated by the 0.54 value, suggests a moderate level
 2022-11-01 to 2023-10-31
 
 **Upcoming Election that hasn't occurred yet: 12 Months Before**
-Predictions on how well our portfolio will do before the next major election 
+- Predictions on how well our portfolio will do before the next major election 
 2023-11-01 to 2024-10-31
-
-
+- Forecasting: We would want to predict which industry would potentially do the best in the next primary election based on what party gets elected 
+___
 ## 6. Data Visualization 
   
-- We want to create our own ideal portfolio that only include the industry’s that performed the best
-- We would average the cumulative returns (include points where the party in power changes) of each industry and find the highest
-- We would also analyze which party was in power after each major election
-- We would include the top two industries
+- Created our own ideal portfolio that only include the industry’s that performed the best
+- Averaged the cumulative returns (include points where the party in power changes) of each industry and find the highest
+- Analyzed which party was in power after each major election
+- Included the top two industries
   
 **Monte Carlo Simulation: Now until 2024-11-01**
 
 Statistical Analysis on the portfolio: Volatility (interact hvplot), Cumulative Returns plot
 Data Visualization: Results of all the past 5 midterm elections
+Weights:
+___
+## 7. Contribuitors
+[Heloísa Bonetti](https://github.com/helobonetti)
+[Kayla Hofmann](https://github.com/kaylah176)
+[Krish Nair](https://github.com/krishn100)
+___
+## 8. Findings
 
+___
+## 9. Future Work
+Prospective developments or improvements to this project encompass:<br>
+- Execute a more comprehensive risk analysis questionnaire<br>
+- Integrate the Russia-Ukraine conflict into the analysis.
+- Incorporate functionalities that enable users to fine-tune their portfolios<br>
+- Enhance the quality of visual representations<br>
+  
 
 
 
