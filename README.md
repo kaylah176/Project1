@@ -13,14 +13,13 @@ ___
 - The application was created using Python version 3.11.7 <br>
   To run the application on your local machine, ensure the installation of the following Python packages:<br>
 
-- Pandas
-- Matplotlib
-- Yahoo_fin
-- HvPlot
-- Jupyterlab
-<br>
+- Pandas <br>
+- Matplotlib <br>
+- Yahoo_fin<br>
+- HvPlot <br>
+- Jupyterlab<br>
 
-You can install these packages individually into your preferred environment.
+These packages can be installed  individually into the preferred environment.
 
 `pip install pandas`
 `pip install matplotlib`
@@ -135,9 +134,9 @@ Data Visualization: Results of all the past 5 midterm elections
 Weights:
 ___
 ## 7. Contribuitors
-[Heloísa Bonetti](https://github.com/helobonetti)
-[Kayla Hofmann](https://github.com/kaylah176)
-[Krish Nair](https://github.com/krishn100)
+[Heloísa Bonetti](https://github.com/helobonetti)<br>
+[Kayla Hofmann](https://github.com/kaylah176)<br>
+[Krish Nair](https://github.com/krishn100)<br>
 ___
 ## 8. Findings
 
