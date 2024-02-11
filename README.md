@@ -84,6 +84,7 @@ ___
 - Top performing industries get put into a portfolio weighted accordingly<br>
 - Why does the market underperform in the 12 months leading up to midterm elections and over-perform the 12 months after midterm elections?<br>
 - What variables lead to the underperformance and over-performance in the midterm elections? <br>
+- How would the **Consumer Price Index (CPI**)be affected before and after the midterm elections ?
   
 **Midterm 1:**
 12 Months Before 
