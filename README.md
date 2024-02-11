@@ -84,7 +84,7 @@ ___
 - Top performing industries get put into a portfolio weighted accordingly<br>
 - Why does the market underperform in the 12 months leading up to midterm elections and over-perform the 12 months after midterm elections?<br>
 - What variables lead to the underperformance and over-performance in the midterm elections? <br>
-- How would the **Consumer Price Index (CPI**)be affected before and after the midterm elections ?
+
   
 **Midterm 1:**
 12 Months Before 
@@ -117,13 +117,13 @@ ___
 2022-11-01 to 2023-10-31
 
 **Upcoming Election that hasn't occurred yet: 12 Months Before**
-- Predictions on how well our portfolio will do before the next major election 
+- Predictions on how well our portfolio will do before the next midterm election 
 2023-11-01 to 2024-10-31
 - Forecasting: We would want to predict which industry would potentially do the best in the next primary election based on what party gets elected 
 ___
 ## 6. Data Visualization 
   
-- Created our own ideal portfolio that only include the industry’s that performed the best
+- Created our own ideal portfolio that only include the industries that performed the best
 - Averaged the cumulative returns (include points where the party in power changes) of each industry and find the highest
 - Analyzed which party was in power after each major election
 - Included the top two industries
@@ -145,9 +145,17 @@ ___
 ## 9. Future Work
 Prospective developments or improvements to this project encompass:<br>
 - Execute a more comprehensive risk analysis questionnaire<br>
-- Integrate the Russia-Ukraine conflict into the analysis.
+- Integrate the Russia-Ukraine conflict into the analysis<br>
+-  How would the **Consumer Price Index (CPI**) be affected before and after the last 5 midterm elections in the US ?<br>
 - Incorporate functionalities that enable users to fine-tune their portfolios<br>
 - Enhance the quality of visual representations<br>
+
+## 10. How to Run the Code
+
+- Clone the repository and execute it from the notebook in chronological order of the midterm dates <br>
+- The 'image' folder must be established in the environment; otherwise, an error will occur.
+
+
   
 
 
