@@ -91,7 +91,7 @@ ___
 - Why does the market underperform in the 12 months leading up to midterm elections and over-perform the 12 months after midterm elections?<br>
 - What variables lead to the underperformance and over-performance in the midterm elections? <br>
 
-## 5.1. 
+## 5.1. Midterm Elections
 - Analyze Performance based on Election Outcomes.<br>
 - Group the election outcomes by party (e.g., Republican or Democrat).<br>
 -  Calculate the average cumulative returns for each industry for periods following elections when each party won control of the Senate and the House of Representatives.<br>
