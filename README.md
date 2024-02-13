@@ -67,13 +67,13 @@ ___
 
 - Collect cumulative returns for each industry for 1 year before and 1 year after each midterm election.<br>
 
-
-![alt text](IMAGES/cumulative_returns.png)
+![alt text](IMAGES/CUMULATIVE_RETURNS_10%20YEARS.png)
 
 **- Annualized Standard Deviation** <br>
  
 
 ![alt text](IMAGES/STANDARD_DEVIATION.png)
+
 **- Annualized Sharpe Ratios**<br>
 -  Compute the Sharpe ratio for each industry using the cumulative returns<br>
 -  The Sharpe ratio measures the risk-adjusted return of an investment. It's calculated as the average return minus the risk-free rate, divided by the standard deviation of returns<br>
