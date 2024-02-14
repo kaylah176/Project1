@@ -67,13 +67,13 @@ ___
 
 - Collect cumulative returns for each industry for 1 year before and 1 year after each midterm election.<br>
 
-
-![alt text](IMAGES/cumulative_returns.png)
+![alt text](IMAGES/CUMULATIVE_RETURNS_10%20YEARS.png)
 
 **- Annualized Standard Deviation** <br>
  
 
 ![alt text](IMAGES/STANDARD_DEVIATION.png)
+
 **- Annualized Sharpe Ratios**<br>
 -  Compute the Sharpe ratio for each industry using the cumulative returns<br>
 -  The Sharpe ratio measures the risk-adjusted return of an investment. It's calculated as the average return minus the risk-free rate, divided by the standard deviation of returns<br>
@@ -91,7 +91,7 @@ ___
 - Why does the market underperform in the 12 months leading up to midterm elections and over-perform the 12 months after midterm elections?<br>
 - What variables lead to the underperformance and over-performance in the midterm elections? <br>
 
-## 5.1. 
+## 5.1. Midterm Elections
 - Analyze Performance based on Election Outcomes.<br>
 - Group the election outcomes by party (e.g., Republican or Democrat).<br>
 -  Calculate the average cumulative returns for each industry for periods following elections when each party won control of the Senate and the House of Representatives.<br>
