@@ -6,7 +6,7 @@ We aim to validate trends in our data based on the political and economic climat
 This analysis will provide investors with insights on portfolio positioning to safeguard their investments. <br>
 Additionally, we will emphasize geographic data to visualize regions with political party affiliation and cross-reference them with relevant industries.<br>
 ___
-## Technologies (KAYLA/KRISH ANYTHING I FORGOT HERE?)
+## Technologies 
 - The **Pre and Post-midterm Election Stock Market Performance** is written in Python.<br>
 - Visualizations are generated using the hvPlot and Matplotlib libraries.<br>
 ___
@@ -104,7 +104,7 @@ Economic factors such as low interest rates, economic growth, and global stabili
 - **Energy** sector had the lowest average Sharpe ratio both before and after each midterm, indicating poor risk-adjusted returns compared to other sectors.
 
 ___
-## 5. Statistical Analysis (MORE INFO KAYLA/KRISH WE SHOULD ADD??)
+## 5. Statistical Analysis 
   
 - Analysed the  performance of each industry during time frame - 1 year before midterm, 1 year after midterm -- do this for 5 different terms. <br>
 - Calculate the average growth of each industry.<br>
@@ -153,7 +153,7 @@ ___
 2023-11-01 to 2024-10-31
 - Forecasting: We would want to predict which industry would potentially do the best in the next primary election based on what party gets elected.
 ___
-## 6. Data Visualization (KRISH:NOT SURE IF WE WILL TALK ABOUT THE PARTIES )
+## 6. Data Visualization 
   
 
 - Determine which industries performed best and were safest under different election outcomes. <br>
@@ -164,7 +164,7 @@ ___
 - Averaged the cumulative returns (include points where the party in power changes) of each industry and find the highest<br>.
 - Included the top 3 industries.
   
-**Monte Carlo Simulation: Now until 2024-11-01  NEED TO FINISH!!!!**
+**Monte Carlo Simulation: Now until 2024-11-01 
 
 Statistical Analysis on the portfolio: Volatility (interact hvplot), Cumulative Returns plot
 Data Visualization: Results of all the past 5 midterm elections
